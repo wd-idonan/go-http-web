@@ -1,0 +1,7 @@
+{
+    "no_auth": true,
+    "auth_max_interval": 10,
+    "listen_port": "8028",
+    "vpc_db": "root:Idonan936594@tcp(127.0.0.1:3306)/test",
+    "app_db": "root:Idonan936594@tcp(127.0.0.1:3306)/test?charset=utf8&&loc=Asia%2FShanghai&&interpolateParams=true"
+}

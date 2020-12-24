@@ -23,11 +23,13 @@ type APIResponse struct {
 
 
 type HttpPara struct {
-	
+
 }
 
 type AppCfg struct {
 	NoAuth 				bool 		`json:"no_auth"`
 	AuthMaxInterval		int64		`json:"auth_max_interval"`
-
+	ListenPort			string		`json:"listen_port"`
+	VpcDB 				string		`json:"vpc_db"`
+	AppDB				string		`json:"app_db"`
 }
